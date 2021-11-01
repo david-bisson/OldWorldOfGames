@@ -12,19 +12,15 @@ def load_game():
     shift = 0
     while 1 > shift or 3 < shift:
         try:
-            # Swap raw_input for input in Python 3.x
             shift = int(input("Please enter your choice (1 - 3) : "))
         except ValueError:
-            # Remember, print is a function in 3.x
             print
             "That wasn't an integer :("
     shift = 0
     while 1 > shift or 5 < shift:
         try:
-            # Swap raw_input for input in Python 3.x
             shift = int(input("Please choose difficulty (1 - 5) : "))
         except ValueError:
-            # Remember, print is a function in 3.x
             print
             "That wasn't an integer :("
 
